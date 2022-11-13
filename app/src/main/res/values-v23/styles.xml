@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TBDrawerTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/dp_font_size_medium</item>
+        <item name="android:layout_marginEnd">@dimen/_1sdp</item>
+        <item name="android:drawablePadding">@dimen/dp_spacing_standard_new</item>
+        <item name="android:paddingStart">@dimen/dp_spacing_standard_new</item>
+        <item name="android:paddingEnd">@dimen/dp_spacing_standard_new</item>
+        <item name="android:paddingTop">@dimen/_12sdp</item>
+        <item name="android:paddingBottom">@dimen/_12sdp</item>
+        <item name="fontPath">@string/dp_font_medium</item>
+        <item name="android:textColor">@color/dp_white</item>
+        <item name="android:drawableTint">@color/dp_white</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+</resources>

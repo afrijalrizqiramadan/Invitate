@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:padding="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_20sdp"
+        android:text="Nama : "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvnama"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_20sdp"
+        android:text=""/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/dialogjumlah"
+        android:hint="Jumlah"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/dialogketerangan"
+        android:hint="Keterangan"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/submit"
+            android:text="Submit"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+<!--        <Button-->
+<!--            android:id="@+id/dialogCancelBtn"-->
+<!--            android:text="Cancel"-->
+<!--            style="@style/Base.Widget.AppCompat.Button.Colored"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content" />-->
+    </LinearLayout>
+
+</LinearLayout>

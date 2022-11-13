@@ -1,0 +1,613 @@
+<resources>
+    <string name="app_name">Fastech App</string>
+    <string name="dp_font_bold">dpfonts/googlesansbold.ttf</string>
+    <string name="dp_font_medium">dpfonts/googlesansmedium.ttf</string>
+    <string name="dp_font_regular">dpfonts/googlesansregular.ttf</string>
+    <string name="dp_lbl_get_here"><u>Get here!</u></string>
+    <string name="dp_lbl_are_you_a_doctor">Are you a doctor?</string>
+    <string name="dp_lbl_sign_in">Sign In With Google</string>
+    <string name="dp_lbl_sign_up">Sign Up</string>
+    <string name="dp_lbl_for_patient">For Patient</string>
+    <string name="dp_lbl_welcome_back">Welcome back!</string>
+    <string name="dp_lbl_email">Email</string>
+    <string name="dp_lbl_password">Password</string>
+    <string name="dp_lbl_forgot_password">Forgot Password?</string>
+    <string name="dp_lbl_login_in_with_social_account">Login in with</string>
+    <string name="dp_facebook">Facebook</string>
+    <string name="dp_twitter">Twitter</string>
+    <string name="dp_don_t_have_an_account">Don\'t have an account?</string>
+    <string name="dp_forgot_password">Forgot Password</string>
+    <string name="dp_send_email">Send Email</string>
+    <string name="dp_fp_note">Please enter your email below to receive your password reset instructions.</string>
+    <string name="dp_rp_note">Reset code was sent to  your email. Please enter the code and create new password</string>
+    <string name="dp_verification_note">Please check your email (check your spam folder as well) for a six-digit security code and enter it below</string>
+    <string name="dp_recovery_password">Recovery Password</string>
+    <string name="dp_reset_code">Reset Code</string>
+    <string name="dp_confirm_new_password">Confirm New Password</string>
+    <string name="dp_new_password">New Password</string>
+    <string name="dp_change_password">Change Password</string>
+    <string name="dp_congratulations">Congrats!</string>
+    <string name="dp_success_password_chnge">You have successfully change password. Please use the new password when logging in.</string>
+    <string name="dp_already_have_an_account">Already have an account?</string>
+    <string name="dp_verification">Verification</string>
+    <string name="dp_verify">Verify</string>
+    <string name="dp_profile_note">Update your profile to get better the answer from doctor</string>
+    <string name="lbl_sign_up_with_social_account">Sign up with</string>
+    <string name="lbl_privacy_policy_note">By clicking sign up you are agreeing to the \nTerms of use and the Privacy Policy</string>
+    <string name="dp_i_m_done">I\'m Done</string>
+    <string name="lbl_enter_health_keyword">Enter health keyword</string>
+    <string name="lbl_topic_note">Following a topic allows you to stay informed on what\'s happaning</string>
+    <string name="dp_lbl_follow_topic">Follow Topic</string>
+    <string name="dp_step_3">Step 3 of 3</string>
+    <string name="db_lbl_online_consults">Online Consults</string>
+    <string name="db_lbl_health_feed">Health Feed</string>
+    <string name="db_lbl_next_consults">Recent Consultation</string>
+    <string name="db_lbl_ask_free_health">Ask health \nquestion</string>
+    <string name="db_lbl_4_of_6_completed">4 of 6 completed</string>
+    <string name="db_lbl_task_for_today">Task for today</string>
+    <string name="db_hint_search_health_issue_doctor_topic">Search doctor..</string>
+    <string name="db_lbl_how_re_you_today">Bagaimana kabarmu?</string>
+    <string name="db_lbl_hi_devin">Hi Devin,</string>
+    <string name="dp_lbl_notifications">Notifications</string>
+    <string name="dp_lbl_i_m_done">I\'m Done!</string>
+    <string name="dp_info_description">Ask your health query to our experienced Dentists online and receive instant medical and second opinion.</string>
+    <string name="dp_lbl_description">Description</string>
+    <string name="dp_info_frequency">2x a year</string>
+    <string name="dp_lbl_frequency">Frequency</string>
+    <string name="dp_lbl_never">Never</string>
+    <string name="dp_lbl_end_date">End Date</string>
+    <string name="dp_info_start_date">As soon as the Health Guide begins</string>
+    <string name="dp_lbl_start_date">Start Date</string>
+    <string name="dp_lbl_caring_for_your_toodler">Caring for your toodler</string>
+    <string name="dp_lbl_health_guide">Health Guide:</string>
+    <string name="dp_lbl_talk_to_a_doctor_in_dentistry">Talk to a doctor in \nDentistry</string>
+    <string name="tv_lbl_someone_else">Orang Lain</string>
+    <string name="tv_lbl_nara">Nara</string>
+    <string name="tv_lbl_you">You</string>
+    <string name="tv_lbl_sample">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="tv_lbl_is_this_for_you_or_someone_else">Untuk siapa sesi telemedicine ini?</string>
+    <string name="tv_lbl_what_is_your_question">What is your question?</string>
+    <string name="tv_lbl_describe_your_issue_in_detail">Describe your issue in detail...</string>
+    <string name="tv_lbl_additional_information">Additional Information</string>
+    <string name="tv_lbl_do_you_have_any_previous_ndiagnosed_conditions">Do you have any previous \ndiagnosed Conditions?</string>
+    <string name="tv_lbl_add_collection">Add Collection</string>
+    <string name="tv_lbl_do_you_take_any_medications">Do you take any medications?</string>
+    <string name="tv_lbl_do_you_have_any_allergies">Do you have any allergies?</string>
+    <string name="tv_lbl_ask_free_question">Ask Free Question</string>
+    <string name="tv_lbl_we_may_find_similar_your_question">We may find similar your question</string>
+    <string name="tv_lbl_our_doctor_have_answered_similar_questions">Our doctor have answered similar questions</string>
+    <string name="tv_lbl_didn_t_find_what_you_are_looking_for">Didn\'t find what you are looking for?</string>
+    <string name="tv_lbl_send_your_questions">Send your questions</string>
+    <string name="tv_lbl_first_name">Nama</string>
+    <string name="tv_lbl_last_name">Last Name</string>
+    <string name="tv_lbl_relationship_to_you">Relationship to you</string>
+    <string name="tv_lbl_dob">DOB</string>
+    <string name="tv_date_30_05_1995">30/05/1995</string>
+    <string name="tv_lbl_cancel">Batalkan</string>
+    <string name="tv_lbl_add">Add</string>
+    <string name="tv_lbl_not_anymore">Not Anymore</string>
+    <string name="tv_lbl_edit">Edit</string>
+    <string name="tv_lbl_deleted">Deleted</string>
+    <string name="tv_lbl_add_condition_or_symptom">Add condition or symptom</string>
+    <string name="tv_lbl_condition_name">Condition Name</string>
+    <string name="tv_lbl_have_this_now">Have this now</string>
+    <string name="tv_lbl_used_to_have_this">Used to have this</string>
+    <string name="tv_lbl_optional_note">Optional Note</string>
+    <string name="tv_hint_e_g_flue">e.g Flue</string>
+    <string name="tv_lbl_doctors_answered">Doctors answered</string>
+    <string name="tv_lbl_you_detail_will_remain_100_private_and_secure">You detail will remain 100% private and secure</string>
+    <string name="tv_lbl_continue">Continue</string>
+    <string name="tv_lbl_max_30_char">Max 30 char</string>
+    <string name="dp_lbl_dental_hygientist">Dental Hygientist</string>
+    <string name="dp_lbl_4_5">4.5</string>
+    <string name="dp_lbl_155_feedback">(155 feedback)</string>
+    <string name="dp_lbl_visit_time">Visit time</string>
+    <string name="dp_lbl_today_jan_5_2020">Today, Jan 5 2020</string>
+    <string name="dp_lbl_8_00_to_8_30">8:00 to 8:30</string>
+    <string name="dp_lbl_alarm_before_30_min">Alarm before 30 min</string>
+    <string name="dp_lbl_online_appointment">Online Appointment</string>
+    <string name="dp_lbl_45_visit">$45 /visit</string>
+    <string name="dp_lbl_consult_details">Consult Details</string>
+    <string name="dp_lbl_for_nara_4_years_old">For John, 4 years old</string>
+    <string name="dp_lbl_my_daughter_health">My Boy Teeth</string>
+    <string name="dp_lbl_uploaded_13_2019">Uploaded 13,2019</string>
+    <string name="dp_lbl_additional_information">Additional Information</string>
+    <string name="dp_lbl_diagnosed_conditions">Diagnosed Conditions</string>
+    <string name="dp_lbl_chickenpox">Chickenpox</string>
+    <string name="dp_lbl_medications">Medications Receipt</string>
+    <string name="dp_lbl_none">None</string>
+    <string name="dp_lbl_allergies">Allergies</string>
+    <string name="dp_lbl_edit_consult_details">Edit Consult Details</string>
+    <string name="dp_lbl_have_12_doctors_available_now">Have 12 doctors available now.</string>
+    <string name="dp_lbl_do_you_want_to_continue">Do you want to continue?</string>
+    <string name="dp_lbl_incoming_call">Incoming Call...</string>
+    <string name="dp_lbl_dr_margaret_wells">Dr. Margaret Wells</string>
+    <string name="dp_lbl_decline">Decline</string>
+    <string name="dp_lbl_accept">Accept</string>
+    <string name="dp_lbl_chat">Chat</string>
+    <string name="dp_lbl_call_ended">Call Ended</string>
+    <string name="dp_lbl_write_a_review">Write a review</string>
+    <string name="dp_lbl_go_to_home_dashboard">Go to Home Dashboard</string>
+    <string name="dp_lbl_25_12_remaining_30_min_visit">25:12 remaining(30 min visit)</string>
+    <string name="dp_lbl_off">Off</string>
+    <string name="dp_lbl_mute">Mute</string>
+    <string name="dp_lbl_shared_files">Shared Files</string>
+    <string name="dp_lbl_step_2_of_3">Step 2 of 3</string>
+    <string name="dp_lbl_past_consults">Past Consults</string>
+    <string name="dp_lbl_next_consults1">Next Consults</string>
+    <string name="dp_lbl_available_care_team">Available Care Team</string>
+    <string name="dp_lbl_tell_people_about_your_experience">Ceritakan pengalaman anda</string>
+    <string name="dp_lbl_would_you_recommended_dr_margaret_wells_to_your_friend">Would you recommended DR. Margaret Wells to your friend?</string>
+    <string name="dp_lbl_yes">Yes</string>
+    <string name="dp_lbl_no">No</string>
+    <string name="dp_lbl_how_would_you_rate_your_overall_experience_with_dr_margaret_wells_service">Bagaimana penilaian anda tentang layanan konsultasi Ruang Praktek bersama %1$s?</string>
+    <string name="dp_lbl_public_as_anonymously">Public as anonymously</string>
+    <string name="dp_lbl_send_review">Send Review</string>
+    <string name="dp_lbl_successfully_imported">Successfully Imported</string>
+    <string name="dp_lbl_your_health_app_data_will_be_shown_to_doctor_to_give_you_better_care">Your Health app data will be shown to doctor to give you better care!</string>
+    <string name="dp_lbl_ok">Ok</string>
+    <string name="dp_lbl_cancel_request"><a href="#">Cancel Request</a></string>
+    <string name="dp_lbl_cancel_request_lbl">Cancel Request</string>
+    <string name="dp_lbl_are_you_sure_you_want_to_cancel">Are you sure you want to cancel?</string>
+    <string name="dp_lbl_enter_promo_code">Enter Promo Code</string>
+    <string name="dp_lbl_apply">Terapkan</string>
+    <string name="dp_lbl_step_1_of_3">Step 1 of 3</string>
+    <string name="dp_lbl_select_speciality">Select Speciality</string>
+    <string name="dp_lbl_search_speciality">Search Speciality...</string>
+    <string name="dp_lbl_more_about_nara">More about nara</string>
+    <string name="dp_lbl_birthday">Tanggal Lahir</string>
+    <string name="dp_lbl_30_05_1995">30/05/1995</string>
+    <string name="dp_lbl_emergency_phone">Emergency Phone</string>
+    <string name="dp_lbl_gender">Jenis Kelamin</string>
+    <string name="dp_lbl_male">Male</string>
+    <string name="dp_lbl_female">Female</string>
+    <string name="dp_lbl_add_attachments">Add Attachments</string>
+    <string name="dp_lbl_add_medications">Add Medications</string>
+    <string name="dp_lbl_add_allergy">Add Allergy</string>
+    <string name="dp_lbl_sync_with_health_service">Sync with Health Service</string>
+    <string name="dp_lbl_apple_health_data">Apple Health Data</string>
+    <string name="dp_lbl_last_update_10_40_pm_jan_20_2019">Last update 10:40 PM,Jan 20,2019</string>
+    <string name="dp_lbl_select_health_data">Select Health Data</string>
+    <string name="dp_lbl_hpaa_secure">HPAA Secure</string>
+    <string name="dp_lbl_depend_on_your_connection_we_will_recommended_you_a_best_consult_method">Depend on your connection we will recommended you a best consult method</string>
+    <string name="dp_lbl_live_chat">Live Chat</string>
+    <string name="dp_lbl_voice_call">Voice Call</string>
+    <string name="dp_lbl_video_call">Video Call</string>
+    <string name="dp_lbl_go_to_payment">Go to Payment</string>
+    <string name="dp_lbl_step_3_of_3">Step 3 of 3</string>
+    <string name="dp_lbl_confirm_payment">Confirm Payment</string>
+    <string name="dp_lbl__144_reviews">(144 reviews)</string>
+    <string name="dp_lbl_service_price">Service Price</string>
+    <string name="dp_lbl__45_visit">$45 /visit</string>
+    <string name="dp_lbl__100_satisfaction_guarantee">100% Satisfaction guarantee</string>
+    <string name="dp_lbl_add_promo_code">Add Promo Code</string>
+    <string name="dp_lbl_paypal">Paypal</string>
+    <string name="dp_lbl_google_pay">Google Pay</string>
+    <string name="dp_lbl_xxxx_xxxx_xxxx_6834">xxxx - xxxx - xxxx - 6834</string>
+    <string name="dp_lbl_change">Change</string>
+    <string name="dp_lbl_payment_send_request">Payment Send Request</string>
+    <string name="dp_lbl_payment_successful">Payment Successful</string>
+    <string name="dp_lbl_your_request_has_been_sent_doctors_n_please_wait_a_minute">Your request has been sent Doctors!   Please wait a minute!</string>
+    <string name="dp_lbl_all_medication">All Medication</string>
+    <string name="dp_lbl_devin_gmail_com">Devin@gmail.com</string>
+    <string name="dp_lbl_standard_account">Standard Account</string>
+    <string name="dp_lbl_about_doctor_plus">About doctor plus</string>
+    <string name="dp_lbl_help_amp_support"><![CDATA[Help & Support]]></string>
+    <string name="dp_lbl_privacy_amp_policy"><![CDATA[Privacy & Policy]]></string>
+    <string name="dp_lbl_invite_friend_to_give_a_friend_15_of_and_get_10_credit_for">Invite friend to give a friend $15 of and get $10 credit for</string>
+    <string name="dp_lbl_invite_now">Invite Now!</string>
+    <string name="db_lbl_family">Family</string>
+    <string name="db_lbl_care_team">Care Team</string>
+    <string name="db_lbl_health_guide">Health Guide</string>
+    <string name="db_lbl_my_questions">My Questions</string>
+    <string name="db_lbl_consult_history">Consult History</string>
+    <string name="db_lbl_my_plus">My Plus</string>
+    <string name="dp_lbl_have_a_health_questions">Have a health questions?</string>
+    <string name="dp_lbl_ask_a_free_now">Ask a free Now!</string>
+    <string name="dp_lbl_unfollow_question">Unfollow Question</string>
+    <string name="dp_lbl_add_the_doctor_to_care_team">Add the Doctor to Care Team</string>
+    <string name="dp_lbl_disclaimer">Disclaimer</string>
+    <string name="dp_lbl_report_this_content">Report this content</string>
+    <string name="dp_lbl_all">All</string>
+    <string name="dp_lbl_healthy">Healthy</string>
+    <string name="dp_lbl_condition">Condition</string>
+    <string name="dp_lbl_recommended">recommended</string>
+    <string name="dp_lbl_enroll">Enroll</string>
+    <string name="dp_lbl_yearly">Yearly</string>
+    <string name="dp_lbl_once">Once</string>
+    <string name="dp_lbl_daily">Daily</string>
+    <string name="dp_lbl_what_you_will_do">What you will do</string>
+    <string name="dp_lbl_are_male_n_is_over_18_years_of_age">are male \nis over 18 years of age</string>
+    <string name="dp_lbl_for_patient_who">For Patient who</string>
+    <string name="dp_lbl_integrative_medicine">Integrative Medicine</string>
+    <string name="dp_lbl_created_by">Created By</string>
+    <string name="dp_lbl__543_enrolled">543 enrolled</string>
+    <string name="dp_lbl_being_a_healthy_man">Being a Healthy Man</string>
+    <string name="dp_lbl_family_medical_records">Family Medical Records</string>
+    <string name="dp_lbl_new_reminder">New Reminder</string>
+    <string name="dp_lbl_who_take_it">Who take it?</string>
+    <string name="dp_lbl_medicine_details">Medicine Details</string>
+    <string name="dp_lbl_medicine_name">Medicine Name</string>
+    <string name="dp_lbl_product_name">Product Name</string>
+    <string name="dp_lbl_producer">Producer</string>
+    <string name="dp_lbl_dose">Dose</string>
+    <string name="dp_lbl_1">1</string>
+    <string name="dp_lbl_share_type">Share Type</string>
+    <string name="dp_lbl_times">Waktu Praktek</string>
+    <string name="dp_lbl_how_long">How long?</string>
+    <string name="dp_lbl_start_from">Start from</string>
+    <string name="dp_lbl_today">Today</string>
+    <string name="dp_lbl_reminder">Reminder</string>
+    <string name="dp_lbl_08_00_am">08:00 AM</string>
+    <string name="dp_lbl_05_00_am">05:00 AM</string>
+    <string name="dp_lbl_snooze">Snooze</string>
+    <string name="dp_lbl_done">Done</string>
+    <string name="dp_lbl_who_has_flue_amp_cold"><![CDATA[Who has Flue & Cold?]]></string>
+    <string name="dp_lbl_help_the_doctors_understand_what_they_are_looking_at">Help the doctors understand what they are looking at</string>
+    <string name="dp_lbl_take_a_photo">Take a Photo</string>
+    <string name="dp_lbl_take_a_video">Take a Video</string>
+    <string name="dp_lbl_from_doctor_plus_library">From Doctor Plus Library</string>
+    <string name="dp_lbl_from_photos">From Photos</string>
+    <string name="dp_hint_search_device_health_app_name">Search device, health app name</string>
+    <string name="dp_lbl_1_mile">1 mile</string>
+    <string name="dp_lbl_find_3_hospitals_clinic_around_you">Find 3 hospitals, clinic around you.</string>
+    <string name="dp_lbl_my_care_team">My Care Team</string>
+    <string name="dp_lbl_may_be_can_help_you">May be can help you</string>
+    <string name="dp_lbl_condition_in_your_profile">Condition in your profile</string>
+    <string name="dp_lbl_all_conditions_amp_symptoms"><![CDATA[All conditions & symptoms]]></string>
+    <string name="dp_lbl_top_specialities">Top Specialities</string>
+    <string name="dp_lbl_treading_topics">Trending Topics</string>
+    <string name="dp_lbl_search_special">Search Special</string>
+    <string name="dp_lbl_files">Files</string>
+    <string name="dp_lbl_payment_method">Payment Method</string>
+    <string name="dp_lbl_settings">Settings</string>
+    <string name="dp_hint_enter_condition_symptoms">Enter condition, symptoms</string>
+    <string name="dp_lbl_student_health_care_ncenter">Student Health Care \nCenter</string>
+    <string name="dp_lbl_user_address">217 Grand st, New york, 5664</string>
+    <string name="dp_call_983215313">983215313</string>
+    <string name="dp_lbl__125_beds">125 beds</string>
+    <string name="dp_lbl_overview">Overview</string>
+    <string name="dp_lbl_warning">Warning</string>
+    <string name="dp_lbl_service">Service</string>
+    <string name="dp_lbl_nursing_services">nursing services</string>
+    <string name="dp_lbl_laboratory">laboratory</string>
+    <string name="dp_lbl_emergency_department">Emergency Department</string>
+    <string name="dp_lbl_coronary_care_unit">Coronary Care Unit</string>
+    <string name="dp_lbl_doctor_answer">Doctor Answer</string>
+    <string name="dp_lbl_answered_4_30_pm">Answered 4:30 PM</string>
+    <string name="dp_lbl_request_new_consult">Request New consult</string>
+    <string name="dp_lbl_service_info">Service Info</string>
+    <string name="dp_lbl_following_topics">Following Topics</string>
+    <string name="dp_lbl_following_questions">Following Questions</string>
+    <string name="dp_lbl_current">Current</string>
+    <string name="dp_lbl_acyclovir_800mg">Acyclovir 800mg</string>
+    <string name="dp_lbl_for_nara_1_tablet_time">For nara, 1 tablet/time</string>
+    <string name="dp_lbl_take_it_with_or_without_food_treatment_should_continue_for_five_days">Take it with or without food. Treatment should continue for five days.</string>
+    <string name="dp_lbl_5_days">5 days</string>
+    <string name="dp_lbl_live_chat_consult">Live Chat Consult</string>
+    <string name="dp_lbl_completed">Completed</string>
+    <string name="dp_lbl_basic_information">Basic Information</string>
+    <string name="dp_lbl_last_updated_29_may_2019">Last updated: 29,May 2019</string>
+    <string name="dp_lbl_share_basic_information">Share Basic Information</string>
+    <string name="dp_lbl_full_name">Full Name</string>
+    <string name="dp_lbl_biological_sex">Biological Sex</string>
+    <string name="dp_lbl_language">Language</string>
+    <string name="dp_lbl_contact_information">Contact Information</string>
+    <string name="dp_lbl_emergency">Emergency</string>
+    <string name="dp_lbl_address">Address</string>
+    <string name="dp_lbl_emergency_contact">Emergency Contact</string>
+    <string name="dp_lbl_contact_name">Contact Name</string>
+    <string name="dp_lbl_relationship">Relationship</string>
+    <string name="dp_lbl_health_metrics">Health Metrics</string>
+    <string name="dp_lbl_current_height_ft_in">Current Height(ft in)</string>
+    <string name="dp_lbl_current_weight_lbs">Current Weight(lbs)</string>
+    <string name="dp_lbl_body_mask_index_bmi">Body Mask Index(BMI)</string>
+    <string name="dp_lbl_blood_group">Blood Group</string>
+    <string name="dp_lbl_advanced_information">Advanced Information</string>
+    <string name="dp_lbl_blood_pressure">Blood Pressure</string>
+    <string name="dp_lbl_total_cholesterol">Total Cholesterol</string>
+    <string name="dp_lbl_ldl_cholesterol">LDL Cholesterol</string>
+    <string name="dp_lbl_hdl_cholesterol">HDL Cholesterol</string>
+    <string name="dp_lbl_triglycerides">Triglycerides</string>
+    <string name="dp_lbl_cholesterol_hdl_ratio">Cholesterol/HDL Ratio</string>
+    <string name="dp_lbl_glucose">Glucose</string>
+    <string name="dp_lbl_condition_amp_symptoms"><![CDATA[condition & Symptoms]]></string>
+    <string name="dp_lbl_add_new">Add New</string>
+    <string name="dp_lbl_past">Past</string>
+    <string name="dp_lbl_no_conditions_symptoms"><![CDATA[No Conditions & Symptoms]]></string>
+    <string name="dp_lbl_garden_state_allergy_and_asthma_center">Garden State Allergy and Asthma Center</string>
+    <string name="dp_lbl_certification_amp_awards"><![CDATA[Certification & Awards]]></string>
+    <string name="dp_lbl_2016">2016</string>
+    <string name="dp_lbl_apua_leadership_award">APUA Leadership Award</string>
+    <string name="dp_lbl_2001">2001</string>
+    <string name="dp_lbl_ama_scientific_achievement_award">AMA Scientific Achievement Award</string>
+    <string name="dp_lbl_1990">1990</string>
+    <string name="dp_lbl_medicine_award_winners">Medicine Award Winners</string>
+    <string name="dp_lbl_md_06">MD \'06</string>
+    <string name="dp_lbl_certification">Certification</string>
+    <string name="dp_lbl_fcps_mbbs_clinical_medicine">FCPS, MBBS, Clinical Medicine</string>
+    <string name="dp_lbl_education">Education</string>
+    <string name="dp_lbl_1985">1985</string>
+    <string name="dp_lbl_boston_university_school_of_medicine">Boston University School of Medicine</string>
+    <string name="dp_lbl_medical_school">Medical School</string>
+    <string name="dp_lbl_educations_amp_certifications"><![CDATA[Educations & Certifications]]></string>
+    <string name="dp_lbl_english_spanish_french">English, Spanish, French</string>
+    <string name="dp_lbl_23_years">23 Years</string>
+    <string name="dp_lbl_work_experience">Work Experience</string>
+    <string name="dp_lbl_new_york">New York</string>
+    <string name="dp_lbl_i_am_licensed_to_see_patients_from">I am licensed to see patients from</string>
+    <string name="dp_lbl_experience">Experience</string>
+    <string name="dp_lbl_about_me">About me</string>
+    <string name="dp_lbl_specialities">Specialities</string>
+    <string name="dp_lbl_allergy_and_immunology">Allergy And Immunology</string>
+    <string name="dp_lbl_cardiology">Cardiology</string>
+    <string name="dp_lbl_about">Tentang Dokter</string>
+    <string name="dp_lbl_insights">Artikel Dokter</string>
+    <string name="dp_lbl_in_network">In Network</string>
+    <string name="dp_lbl_reviews">Reviews</string>
+    <string name="dp_lbl_temple_hills">Temple Hills</string>
+    <string name="dp_lbl_patients">Patients</string>
+    <string name="dp_lbl_1523">1523</string>
+    <string name="dp_lbl_saved_lives">Saved Lives</string>
+    <string name="dp_lbl_423">423</string>
+    <string name="dp_lbl_helped">Helped</string>
+    <string name="dp_lbl_1523k">1523K</string>
+    <string name="dp_lbl_thanks_for">Thanks For</string>
+    <string name="dp_lbl__1523k">1523K</string>
+    <string name="dp_lbl_primary_care_service">Primary Care Service</string>
+    <string name="dp_lbl_available_visit_hours">Available visit hours</string>
+    <string name="dp_lbl_send_msg">Send Msg</string>
+    <string name="dp_lbl_appointment">Jadwal Bertemu Dokter</string>
+    <string name="dp_lbl_filter_insights">Filter Insights</string>
+    <string name="dp_lbl_only_show">Only show:</string>
+    <string name="dp_lbl_everything">Everything</string>
+    <string name="dp_lbl_answers">Answers</string>
+    <string name="dp_lbl_tips">Tips</string>
+    <string name="dp_lbl_topics">Topics</string>
+    <string name="dp_lbl_show_254_results">show +254 results</string>
+    <string name="dp_lbl_filter_doctor_in_network">Filter Doctor in Network</string>
+    <string name="dp_lbl_sort_by">Sort By</string>
+    <string name="dp_lbl_show_5_doctors">Show +5 Doctors</string>
+    <string name="dp_lbl_start_on_time">Start on Time</string>
+    <string name="dp_lbl_rating">Rating</string>
+    <string name="dp_lbl_from_patients">From Patients</string>
+    <string name="dp_lbl_from_colleagues">From Colleagues</string>
+    <string name="dp_lbl_entire_network">Entire Network</string>
+    <string name="dp_lbl_refferal_network">Refferal Network</string>
+    <string name="dp_lbl_reputation">Reputation</string>
+    <string name="dp_lbl_distance">Distance</string>
+    <string name="dp_lbl_side_effect">Side Effect</string>
+    <string name="dp_lbl_uses_for">Uses for</string>
+    <string name="dp_lbl_abilify">Abilify</string>
+    <string name="dp_lbl_send_successful">Sent Successful!</string>
+    <string name="dp_lbl_while_waiting_for_the_answers_you_can_check_the_health_feed_and_learn_insights">While waiting for the answers you can check the health feed and learn insights.</string>
+    <string name="dp_lbl_check_health_feed">Check Health Feed</string>
+    <string name="dp_lbl_quitting_smoking_is_the_process_of_discount_the_use_of_inhaled_tobacco_products">Quitting smoking is the process of discount the use of inhaled tobacco products.</string>
+    <string name="dp_lbl_shared_a_tip_on_air_pollution">shared a tip on Air Pollution</string>
+    <string name="dp_lbl_interesting_fact_smoking_is_the_number_one_cause_of_prevetable_death_in_the_united_sates">Interesting Fact: Smoking is the number one cause of prevetable death in the United Sates.</string>
+    <string name="dp_lbl__12_5k_thanks">12.5K Thanks</string>
+    <string name="dp_lbl_quitting_smoking">Quitting Smoking</string>
+    <string name="dp_lbl_a_member_asked">A member asked:</string>
+    <string name="dp_lbl_how_can_air_pollution_effect_health_what_are_the_health_effects_of_air_pollution">How can air pollution effect health? what are the health effects of air pollution?</string>
+    <string name="dp_lbl_12_doctor_answered">12 doctor answered</string>
+    <string name="dp_lbl_air_pollution_is_the_introduction_of_chemicals_and_other_materials_into_the_atmosphere_that_cause_harm_to_living_organisms_and_the_natural_environment">Air pollution is the introduction of chemicals and other materials into the atmosphere that cause harm to living organisms and the natural environment.</string>
+    <string name="dp_lbl_we_found_3_doctors">We found 3 doctors</string>
+    <string name="dp_lbl_login_now">Login Now</string>
+    <string name="dp_lbl_welcome_to_doctor_plus">Welcome to Ruang Praktek</string>
+    <string name="dp_lbl_send_again">Send again</string>
+    <string name="dp_lbl_didn_t_get_code">Didn\'t get code?</string>
+    <string name="dp_lbl_your_profile">Your Profile</string>
+    <string name="dp_lbl_other_information">Other Information</string>
+    <string name="dp_male">Male</string>
+    <string name="dp_female">Female</string>
+    <string name="dp_lbl_150_fashion_street_ndevsar_nework">150,Fashion Street, New York, NY 3335</string>
+    <string name="dp_lbl_get_help_instantly_from_top_doctors_anytime_anywhere">Get help instantly from top doctors \n anytime, anywhere.</string>
+    <string name="dp_lbl_add_a_profile_for_someone">Add a profile for someone</string>
+    <string name="dp_lbl_late_falling_of_milk_teeth_on_a_child_resulting_in_two_rows_of_milk_what_could_help">Late falling of milk teeth on a child, resulting in two rows of milk ,what could help?</string>
+    <string name="dp_lbl_by_importing_your_health_data_from_smart_devices_doctor_can_better_help_you">By importing your health data from Smart Devices, Doctor can better help you.</string>
+    <string name="dp_lbl_credit_card">Credit Card</string>
+    <string name="dp_lbl_devin_shelton">Devin Shelton</string>
+    <string name="dp_lbl_9658_869_8654">9658-869-8654</string>
+    <string name="dp_lbl_john">John</string>
+    <string name="dp_lbl_get_15_for_you">Get $15 for you!</string>
+    <string name="dp_lbl_get_it">Get It!</string>
+    <string name="dp_lbl_you_ll_see_a_preview_before_anything_is_posted_please_only_share_the_offer_with_friends_you_know_would_be_happy_to_receive_it_e">You\'ll see a preview before anything is posted. Please only share the offer with friends you know would be happy to receive it.e</string>
+    <string name="dp_lbl_15_for_your_friends">$15 for Your Friends</string>
+    <string name="dp_lbl_your_friends_can_just_enter_promotion_code_in_checkout_to_get_15">Your friends can just enter promotion code in checkout to get $15.</string>
+    <string name="dp_lbl_kw35465">KW35465</string>
+    <string name="dp_lbl_copy">Copy</string>
+    <string name="dp_lbl_or_share_this_link">or share this link:</string>
+    <string name="dp_lbl_doctorplus_com_referal_ui5654">doctorplus.com/referal/ui5654</string>
+    <string name="dp_lbl_copied">Copied</string>
+    <string name="dp_lbl_share_via">Share via</string>
+    <string name="dp_lbl_payment_methods">Daftar Pembayaran</string>
+    <string name="dp_lbl_no_card_attach_yet">No Card attach yet!</string>
+    <string name="dp_lbl_please_attach_your_card_to_pay_for_your_n_consults_thanks">Please attach your card to pay for your   consults Thanks.</string>
+    <string name="dp_lbl_add_new_credit_card">Add new credit card</string>
+    <string name="dp_hint_enter_address_or_zip_code">Enter address or zip code...</string>
+    <string name="dp_lbl_use_current_location">Use Current Location</string>
+    <string name="dp_lbl_choose_this_location">Choose this location</string>
+    <string name="dp_lbl_just_follow">Just Follow</string>
+    <string name="dp_lbl_who_take_abilify">Who take Abilify?</string>
+    <string name="dp_lbl_doctors_agree">Doctors agree</string>
+    <string name="dp_lbl_edit_visit_time">Edit Visit Time</string>
+    <string name="dp_lbl_03_00_pm_3_30_pm">03:00 PM - 3:30 PM</string>
+    <string name="dp_lbl_03_30_pm_4_30_pm">03:30 PM - 4:30 PM</string>
+    <string name="dp_lbl_05_30_pm_5_30_pm">05:30 PM - 5:30 PM</string>
+    <string name="dp_lbl_add_condition">Add Condition</string>
+    <string name="dp_lbl_do_you_want_to_consult_a_doctor">Do you want to consult a doctor?</string>
+    <string name="dp_lbl_find_a_doctor">Find a doctor</string>
+    <string name="dp_lbl_medication_reminder">Medication Reminder</string>
+    <string name="dp_lbl_1_time_a_day">1 time a day</string>
+    <string name="dp_lbl_8_00_pm">8:00 PM</string>
+    <string name="dp_lbl_n_a">N/A</string>
+    <string name="dp_lbl_23">23</string>
+    <string name="dp_lbl_150">150</string>
+    <string name="dp_lbl_5_7">5.7\'</string>
+    <string name="dp_lbl_high_hills_new_york">High Hills, New york</string>
+    <string name="dp_lbl_the_latest">The Latest</string>
+    <string name="dp_lbl_thanks">Thanks</string>
+    <string name="dp_lbl_air_pollution">Air Pollution</string>
+    <string name="dp_lbl_my_work_experience">My Work Experience</string>
+    <string name="dp_lbl_video_chat">Video Chat</string>
+    <string name="dp_lbl_related_topics">Related Topics</string>
+    <string name="dp_lbl_related_questions">Related Questions</string>
+    <string name="dp_lbl_biostatistician">Biostatistician</string>
+    <string name="dp_lbl_bio_chemics">Bio-Chemics</string>
+    <string name="dp_lbl_biotinidase_deficiency">Biotinidase Deficiency</string>
+    <string name="dp_lbl_antibiotic_associated_diarrhea">Antibiotic Associated Diarrhea</string>
+    <string name="dp_google_account">Gogole Account</string>
+    <string name="tv_lbl_name">Name</string>
+    <string name="tv_lbl_phone">Phone Number</string>
+    <string name="dp_lbl_address_birthday">Place of Birth</string>
+    <string name="tv_lbl_nik">National Identity Number</string>
+    <string name="dp_lbl_step_2_of_2">Step 2 of 2</string>
+    <string name="dp_lbl_step_1_of_2">Step 1 of 2</string>
+    <string name="db_lbl_communicate_with_doctor">Communicate with Doctor</string>
+    <string name="db_lbl_recent_communication">Riwayat Konsultasi</string>
+    <string name="dp_lbl_note_or_advice">Nasehat/Resep Dokter</string>
+    <string name="db_hint_search_article_or_news">Cari artikel atau berita</string>
+    <string name="dp_lbl_articles">Article</string>
+    <string name="dp_lbl_articles_or_news"><![CDATA[Artikel dan Berita]]></string>
+    <string name="dp_enter_doctors_name">Enter Doctor\'s Name</string>
+    <string name="dp_lbl_drg_farkhan">Akhmad Farkhan Azmi, drg,. M.Kes.</string>
+    <string name="dp_lbl_3yo_exp">3 Years Experience</string>
+    <string name="dp_lbl_free">FREE</string>
+    <string name="dp_lbl_services">Available at</string>
+    <string name="dp_lbl_available_hours">00.00-23.59</string>
+    <string name="dp_lbl_start_communicate">Mulai Konsultasi</string>
+    <string name="dp_lbl_alumnus">Alumni</string>
+    <string name="tv_lbl_UNAIR">Universitas Airlangga, 2011</string>
+    <string name="dp_lbl_practice_place">Alamat Praktek</string>
+    <string name="tv_lbl_practice_place_value">Jl. Teluk Bayur, Malang</string>
+    <string name="dp_lbl_license">Lisensi</string>
+    <string name="tv_lbl_str">STR : 35.1.2.100.1.14.147537</string>
+    <string name="tv_lbl_sip">SIP : -</string>
+    <string name="dp_lbl_recent_communication">Riwayat Konsultasi</string>
+    <string name="dp_lbl_notes_or_advice">Nasehat dan Resep</string>
+    <string name="dp_lbl_advicer">Akhmad Farkhan Azmi, drg,. M.Kes.</string>
+    <string name="dp_lbl_advice_date">03 Januari 2020</string>
+    <string name="dp_lbl_valid_5_days">Valid 5 days</string>
+    <string name="dp_lbl_age">23 Years Old</string>
+    <string name="dp_lbl_medical_data">Data Medis</string>
+    <string name="dp_lbl_change_language">Change Language</string>
+    <string name="dp_lbl_change_password">Change Password</string>
+    <string name="dp_lbl_tos">Syarat dan Ketentuan</string>
+    <string name="dp_lbl_logout">Logout</string>
+
+    <string name="intro" translatable="false">
+        Halo ………! Perkenalkan saya mili, customer care dari Ruang_Praktek.\n\n
+        Sambil menunggu dokter…\n\n
+        Perkenankan saya untuk membantu dokter dalam memberikan pertanyaan seputar
+        kesehatan %1$s ya…\n\n
+        Mohon dapat menjawab beberapa pertanyaan dari mili ya…
+    </string>
+    <string name="question1" translatable="false">Keluhan apa yang %1$s rasakan?</string>
+    <string name="question2" translatable="false">Sudah berapa lama merasakan keluhan ini?</string>
+    <string name="question3" translatable="false">Pada bagian apa yang dirasa tidak nyaman?</string>
+    <string name="question4" translatable="false">Apa sudah minum obat tertentu sebelum melakukan konsultasi ini?</string>
+    <string name="question5" translatable="false">Apakah ada informasi lain yang ingin disampaikan?</string>
+    <string name="question6" translatable="false">
+        Baik, terima kasih %1$s...\nSebentar lagi %2$s akan datang dan memberikan balasan secara langsung..
+    </string>
+
+    <string name="warning">Peringatan</string>
+    <string name="y">Ya</string>
+    <string name="btl">Batal</string>
+    <string name="confirm">Apa anda yakin ingin keluar?</string>
+    <string name="warn_out">Tekan lagi untuk keluar</string>
+    <string-array name="dp_relation">
+        <item>Daughter</item>
+        <item>Brother</item>
+        <item>Son</item>
+        <item>Grand Father</item>
+        <item>Grand Mother</item>
+        <item>Wife</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="dp_times">
+        <item>For a Day</item>
+        <item>For a Week</item>
+        <item>For a Month</item>
+    </string-array>
+    <string-array name="dp_long">
+        <item>5 Days</item>
+        <item>10 Days</item>
+        <item>15 Days</item>
+    </string-array>
+    <string-array name="dp_snooze">
+        <item>Every 2 min</item>
+        <item>Every 5 min</item>
+        <item>Every 10 min</item>
+        <item>Every 15 min</item>
+        <item>Every 30 min</item>
+        <item>Every 45 min</item>
+    </string-array>
+    <string-array name="dp_gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="dp_language">
+        <item>English</item>
+        <item>Spain</item>
+        <item>French</item>
+    </string-array>
+    <string-array name="dp_blood_group">
+        <item>Belum Diketahui</item>
+        <item>B</item>
+        <item>A</item>
+        <item>O</item>
+        <item>AB</item>
+    </string-array>
+    <string-array name="dp_diabetes">
+        <item>Belum Diketahui</item>
+        <item>Negatif</item>
+        <item>Positif</item>
+    </string-array>
+    <string-array name="dp_jantung">
+        <item>Belum Diketahui</item>
+        <item>Negatif</item>
+        <item>Positif</item>
+    </string-array>
+    <string-array name="dp_haemo">
+        <item>Belum Diketahui</item>
+        <item>Negatif</item>
+        <item>Positif</item>
+    </string-array>
+    <string-array name="dp_status">
+        <item>Sudah Menikah</item>
+        <item>Belum Menikah</item>
+    </string-array>
+    <string-array name="dp_pekerjaan">
+        <item>Belum Bekerja</item>
+        <item>PNS</item>
+        <item>TNI/POLRI</item>
+        <item>Dokter/Dokter Gigi</item>
+        <item>Wiraswasta</item>
+        <item>Pelajar</item>
+        <item>Karyawan</item>
+        <item>Buruh/Tani/Nelayan</item>
+        <item>Pedagang</item>
+        <item>PRT</item>
+        <item>Pensiunan</item>
+        <item>Lain-lain</item>
+    </string-array>
+    <string-array name="calendar_type">
+        <item>Monthly</item>
+        <item>Weekly</item>
+    </string-array>
+    <string name="default_notification_channel_id" translatable="false">notification_channel_id</string>
+    <string name="dp_lbl_by" translatable="false">Powered By</string>
+    <string name="dp_lbl_kelolanet" translatable="false">Kelola.net</string>
+
+    <!-- PLEASE KEEP THIS App ID IN SAFE PLACE -->
+    <!-- Get your own App ID at https://dashboard.agora.io/ -->
+    <!-- After you entered the App ID, remove <##> outside of Your App ID -->
+    <string name="agora_app_id">fa4e6a4b512343e69efcd0eac44f1e0b</string>
+    <!-- Obtain a temp Access Token at https://dashboard.agora.io -->
+    <!-- You will need to deploy your own token server for production release -->
+    <!-- Leave this value empty if Security keys/Token is not enabled for your project -->
+    <string name="agora_access_token"></string>
+
+</resources>

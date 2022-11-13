@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="dp_colorPrimary">#3CCDCD</color>
+    <color name="dp_colorPrimary_light">#CEF0F0</color>
+    <color name="dp_colorPrimaryDark">#3CCDCD</color>
+    <color name="dp_colorAccent">#3CCDCD</color>
+
+    <color name="dp_textColorPrimary">#333333</color>
+    <color name="dp_textColorSecondary">#9D9D9D</color>
+    <color name="dp_textColorBlue">#9494AA</color>
+
+    <color name="dp_app_background">#FAFAFA</color>
+    <color name="dp_view_color">#DADADA</color>
+
+    <color name="dp_transparent_full">#00504D4B</color>
+    <color name="dp_transparent">#6B504D4B</color>
+    <color name="dp_bg_transparent">#757879</color>
+
+    <color name="dp_white">#ffffff</color>
+    <color name="dp_black">#000000</color>
+
+    <color name="dp_voice_call">#FA4069</color>
+    <color name="dp_video_call">#8FD0FA</color>
+    <color name="dp_chat">#00D65C</color>
+
+    <color name="dp_grey">#F0F0F0</color>
+    <color name="dp_grey_light">#F8F8f8</color>
+
+    <color name="demo_light_transparent">#22BDB7B7</color>
+    <color name="default_shimmer_color">#e3e1e3</color>
+
+    <color name="dp_red">#F84266</color>
+    <color name="dp_blue">#259EEF</color>
+    <color name="dp_blue_hours">#8FD0FA</color>
+    <color name="dp_light_background">#2A259EEF</color>
+
+    <color name="dp_light_orange">#FD9770</color>
+
+    <color name="dp_icon_color">#747474</color>
+    <color name="dp_form_background">#F6F7F9</color>
+    <color name="dp_form_facebook">#2F3181</color>
+    <color name="dp_form_google">#F13B19</color>
+    <color name="dp_form_twittter">#57CEEB</color>
+    <color name="dp_form_mail">#F84266</color>
+    <color name="dp_green">#630DAF14</color>
+    <color name="dp_light_green">#10C417</color>
+    <color name="dp_light">#23DFD5</color>
+    <color name="dp_walk">#EDE5FC</color>
+
+    <color name="dp_cat1">#FF727B</color>
+    <color name="dp_cat2">#439AF8</color>
+    <color name="dp_cat3">#72D4A1</color>
+    <color name="dp_cat4">#FFC358</color>
+    <color name="dp_cat5">#A89DF6</color>
+    <color name="dp_twit_blue">#53D0EC</color>
+    <color name="dp_fb_blue">#3B5999</color>
+    <color name="dp_light_blue">#1DA1F3</color>
+    <color name="dp_1">#24B1B2</color>
+    <color name="dp_2">#259EEF</color>
+    <color name="dp_3">#276FFB</color>
+
+    <!-- Chat Activity -->
+    <color name="localBackground">#827b92</color>
+    <color name="remoteBackground">#484258</color>
+</resources>

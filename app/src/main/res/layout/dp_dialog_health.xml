@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp_spacing_standard_new"
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/dp_spacing_standard_new">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dp_spacing_large">
+
+        <TextView
+            android:id="@+id/tvSpecialistName"
+            style="@style/DPHeading"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/dp_lbl_successfully_imported"
+            android:textSize="@dimen/dp_font_size_large" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_spacing_standard_new"
+            android:gravity="center_horizontal"
+            android:text="@string/dp_lbl_your_health_app_data_will_be_shown_to_doctor_to_give_you_better_care"
+            android:textColor="@color/dp_textColorPrimary"
+            android:textSize="@dimen/dp_font_size_medium" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_spacing_standard_new">
+
+            <ImageView
+                android:id="@+id/iv1"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_70sdp" />
+
+            <ImageView
+                android:id="@+id/iv3"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/dp_spacing_standard"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dp_ic_import" />
+
+            <ImageView
+                android:id="@+id/iv2"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/dp_ract_stroked"
+                android:padding="@dimen/_12sdp"
+                android:src="@drawable/logo" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/btnOk"
+            style="@style/DPButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="@dimen/dp_spacing_large"
+            android:layout_marginEnd="0dp"
+            android:text="@string/dp_lbl_ok" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

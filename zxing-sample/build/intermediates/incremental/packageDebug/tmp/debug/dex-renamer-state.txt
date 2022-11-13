@@ -1,0 +1,4 @@
+#Mon Oct 05 15:06:37 ICT 2020
+base.0=D\:\\Android Studio\\barcodescanner-master\\zxing-sample\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

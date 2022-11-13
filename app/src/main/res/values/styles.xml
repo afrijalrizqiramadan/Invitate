@@ -1,0 +1,413 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="DPAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/dp_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/dp_colorPrimaryDark</item>
+        <item name="colorAccent">@color/dp_colorAccent</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="DPMaterialButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/dp_font_size_normal</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingStart">@dimen/dp_spacing_standard</item>
+        <item name="android:paddingEnd">@dimen/dp_spacing_standard</item>
+        <item name="android:theme">@style/Theme.MaterialComponents.Light</item>
+        <item name="cornerRadius">@dimen/dp_spacing_standard</item>
+        <item name="fontPath">@string/dp_font_medium</item>
+    </style>
+
+    <style name="DPMaterialButtonStyle.Filled">
+        <item name="backgroundTint">@color/dp_white</item>
+        <item name="android:textColor">@color/dp_colorPrimary</item>
+        <item name="rippleColor">@color/dp_white</item>
+    </style>
+
+    <style name="DPMaterialButtonStyle.Stroked">
+        <item name="backgroundTint">@color/dp_colorPrimary</item>
+        <item name="strokeColor">@color/dp_white</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:textColor">@color/dp_white</item>
+    </style>
+
+    <style name="DPFontMedium">
+        <item name="fontPath">@string/dp_font_medium</item>
+    </style>
+
+    <style name="DPFontSemiBold">
+        <item name="fontPath">@string/dp_font_medium</item>
+    </style>
+
+    <style name="DPFontBold">
+        <item name="fontPath">@string/dp_font_bold</item>
+    </style>
+
+    <style name="EduForm_Card">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/_20sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_20sdp</item>
+        <item name="android:layout_marginTop">@dimen/_60sdp</item>
+        <item name="android:layout_marginBottom">@dimen/dp_spacing_standard</item>
+    </style>
+
+    <style name="EduBtnLabel_Form">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textAppearance">@style/DPFontMedium</item>
+        <item name="android:textColor">@color/dp_white</item>
+        <item name="android:textSize">@dimen/dp_font_size_normal</item>
+    </style>
+
+    <style name="EduBtnImg_Form">
+        <item name="android:layout_width">@dimen/_25sdp</item>
+        <item name="android:layout_height">@dimen/_25sdp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginEnd">@dimen/dp_spacing_standard_new</item>
+        <item name="android:padding">@dimen/dp_spacing_control</item>
+        <item name="android:tint">@color/dp_white</item>
+        <item name="android:src">@drawable/dp_ic_right</item>
+    </style>
+    <style name="DPEditTextLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/dp_spacing_standard_new</item>
+        <item name="android:layout_marginEnd">@dimen/dp_spacing_standard_new</item>
+        <item name="android:textColor">@color/dp_textColorPrimary</item>
+        <item name="android:textSize">@dimen/dp_font_size_medium</item>
+    </style>
+
+    <style name="DPCard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/_10sdp</item>
+        <item name="android:layout_marginTop">@dimen/dp_spacing_standard</item>
+        <item name="android:layout_marginEnd">@dimen/_10sdp</item>
+        <item name="android:layout_marginBottom">@dimen/dp_spacing_standard</item>
+        <item name="android:background">@drawable/dp_shadoe</item>
+        <item name="android:padding">@dimen/_12sdp</item>
+    </style>
+    <style name="DPEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/dp_font_size_medium</item>
+    </style>
+
+    <style name="DPEditText.Normal">
+        <item name="android:padding">@dimen/dp_spacing_standard</item>
+        <item name="android:layout_marginTop">@dimen/dp_spacing_standard</item>
+        <item name="android:layout_marginStart">@dimen/dp_spacing_standard_new</item>
+        <item name="android:layout_marginEnd">@dimen/dp_spacing_standard_new</item>
+        <item name="android:background">@drawable/dp_bg_edittext</item>
+    </style>
+
+    <style name="DPEditText.Payment">
+        <item name="android:padding">@dimen/dp_spacing_standard</item>
+        <item name="android:layout_marginTop">@dimen/dp_spacing_standard</item>
+        <item name="android:background">@drawable/dp_bg_edittext</item>
+    </style>
+
+    <style name="DPEditText.OTP">
+        <item name="android:inputType">number</item>
+        <item name="android:maxEms">1</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_marginStart">@dimen/dp_spacing_control</item>
+        <item name="android:layout_marginEnd">@dimen/dp_spacing_control</item>
+        <item name="android:background">@drawable/dp_bg_otp_edittext</item>
+    </style>
+
+    <style name="DPButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+        <item name="android:textSize">@dimen/dp_font_size_normal</item>
+        <item name="android:textColor">@color/dp_white</item>
+        <item name="android:textAppearance">@style/DPFontMedium</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:background">@drawable/dp_bg_button</item>
+    </style>
+
+    <style name="DPButtonStyleStroked">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+        <item name="android:textSize">@dimen/dp_font_size_normal</item>
+        <item name="android:textColor">@color/dp_textColorPrimary</item>
+        <item name="android:textAppearance">@style/DPFontMedium</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">@dimen/dp_spacing_middle</item>
+        <item name="android:background">@drawable/dp_bg_stroke</item>
+    </style>
+
+    <style name="DPHeading">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dp_spacing_standard_new</item>
+        <item name="android:textSize">@dimen/dp_font_size_large</item>
+        <item name="android:textColor">@color/dp_textColorPrimary</item>
+        <item name="android:textAppearance">@style/DPFontBold</item>
+    </style>
+
+    <style name="DPSubHeading">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dp_textColorPrimary</item>
+        <item name="android:textSize">@dimen/dp_font_size_medium</item>
+        <item name="android:lineSpacingExtra">@dimen/dp_spacing_control</item>
+    </style>
+
+    <style name="DPDrawableButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/dp_white</item>
+        <item name="android:textSize">@dimen/dp_font_size_normal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:drawablePadding">@dimen/dp_spacing_middle</item>
+    </style>
+
+    <style name="DPTabNotSelected">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:padding">@dimen/dp_spacing_control</item>
+    </style>
+
+    <style name="DPHomeLayout">
+        <item name="android:background">@drawable/dp_shadoe</item>
+        <item name="android:paddingTop">@dimen/dp_spacing_large</item>
+        <item name="android:paddingBottom">@dimen/dp_spacing_large</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="DPHomeImg">
+        <item name="android:layout_width">@dimen/_50sdp</item>
+        <item name="android:layout_height">@dimen/_50sdp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="DPHomeText">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lines">2</item>
+        <item name="android:textColor">@color/dp_textColorPrimary</item>
+        <item name="android:textSize">@dimen/dp_font_size_medium</item>
+    </style>
+
+    <style name="DPTaskDescriptionImg">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@drawable/dp_bg_radius</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:tint">@color/dp_colorPrimary</item>
+    </style>
+
+    <style name="DPTaskDescriptionText">
+        <item name="android:layout_marginTop">@dimen/dp_spacing_standard</item>
+        <item name="android:layout_marginStart">@dimen/dp_spacing_middle</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dp_textColorPrimary</item>
+        <item name="android:textSize">@dimen/dp_font_size_medium</item>
+    </style>
+
+    <style name="DPSelectionButton">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:src">@drawable/dp_ic_male</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:tint">@color/dp_textColorPrimary</item>
+        <item name="android:background">@drawable/dp_bg_gender</item>
+    </style>
+
+    <style name="DPCustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/DPCustomBottomSheetStyle</item>
+    </style>
+
+    <style name="DPCustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="DPSwitchText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dp_textColorPrimary</item>
+        <item name="android:textSize">@dimen/dp_font_size_medium</item>
+    </style>
+
+    <style name="DPSwitch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="DPTextArea">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/dp_bg_radius_stroke</item>
+        <item name="android:gravity">top</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:lines">4</item>
+        <item name="android:padding">@dimen/dp_spacing_middle</item>
+        <item name="android:textColor">@color/dp_textColorPrimary</item>
+        <item name="android:textSize">@dimen/dp_font_size_medium</item>
+    </style>
+
+    <style name="DPTabTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/dp_spacing_control_half</item>
+        <item name="android:textSize">@dimen/dp_font_size_xxLarge</item>
+        <item name="android:textColor">@color/dp_textColorSecondary</item>
+        <item name="fontPath">@string/dp_font_bold</item>
+    </style>
+
+    <style name="DPTextHeading">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">8:00 to 8:30</item>
+        <item name="fontPath">@string/dp_font_medium</item>
+        <item name="android:textColor">@color/dp_textColorPrimary</item>
+        <item name="android:textSize">@dimen/dp_font_size_medium</item>
+    </style>
+
+    <style name="DPNormalText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dp_textColorPrimary</item>
+        <item name="android:textSize">@dimen/dp_font_size_medium</item>
+    </style>
+
+    <style name="DPIcon">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:tint">@color/dp_white</item>
+        <item name="android:background">@drawable/dp_bg_question_radius</item>
+        <item name="android:padding">@dimen/dp_spacing_middle</item>
+    </style>
+
+
+    <style name="DPRecyclerView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+
+    <style name="DPViewAllTxt">
+        <item name="android:padding">@dimen/dp_spacing_control</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dp_blue</item>
+        <item name="android:drawablePadding">@dimen/dp_spacing_standard</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:textSize">@dimen/dp_font_size_medium</item>
+        <item name="android:drawableEnd">@drawable/dp_ic_keyboard_arrow_right</item>
+        <item name="android:text">Lihat Semua</item>
+    </style>
+
+    <style name="DPServiceText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dp_textColorPrimary</item>
+        <item name="android:textSize">@dimen/dp_font_size_medium</item>
+        <item name="android:paddingTop">@dimen/dp_spacing_standard</item>
+        <item name="android:paddingBottom">@dimen/dp_spacing_standard</item>
+        <item name="android:drawableStart">@drawable/dp_bg_dot</item>
+        <item name="android:drawablePadding">@dimen/dp_spacing_standard</item>
+    </style>
+
+    <style name="DPNormalText.Payment">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dp_textColorPrimary</item>
+        <item name="android:textSize">@dimen/dp_font_size_medium</item>
+        <item name="android:paddingTop">@dimen/dp_spacing_standard</item>
+        <item name="android:paddingBottom">@dimen/dp_spacing_standard</item>
+    </style>
+
+    <style name="DPRadiusIcon">
+        <item name="android:layout_width">38dp</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:background">@drawable/dp_bg_selection_bottom</item>
+        <item name="android:padding">@dimen/dp_spacing_standard</item>
+        <item name="android:tint">@color/dp_white</item>
+    </style>
+
+    <style name="DPTextRecommended">
+        <item name="android:paddingStart">@dimen/dp_spacing_control</item>
+        <item name="android:paddingEnd">@dimen/dp_spacing_control</item>
+        <item name="android:paddingTop">@dimen/dp_spacing_control_half</item>
+        <item name="android:paddingBottom">@dimen/dp_spacing_control_half</item>
+        <item name="android:background">@color/dp_light_orange</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dp_white</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/dp_font_size_small</item>
+        <item name="android:drawableStart">@drawable/dp_ic_star</item>
+        <item name="android:drawablePadding">@dimen/dp_spacing_standard</item>
+        <item name="android:text">@string/dp_lbl_recommended</item>
+    </style>
+
+    <style name="DPViewOption">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_marginTop">@dimen/dp_spacing_standard_new</item>
+        <item name="android:layout_marginBottom">@dimen/dp_spacing_standard_new</item>
+        <item name="android:background">@color/dp_view_color</item>
+    </style>
+
+    <style name="DPSeekBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">6dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:enabled">false</item>
+        <item name="android:thumb">@null</item>
+    </style>
+
+
+    <style name="TextAppearance.MyApp.MainButton" parent="android:TextAppearance">
+        <item name="fontPath">@string/dp_font_regular</item>
+        <item name="android:background">@drawable/bg_green_btn</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/dp_white</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+    <style name="TextAppearance.MyApp.CardHeader" parent="android:TextAppearance">
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontPath">@string/dp_font_medium</item>
+    </style>
+    <style name="TextAppearance.MyApp.SecondButton" parent="TextAppearance.MyApp.MainButton">
+        <item name="android:background">@drawable/bg_gray_btn</item>
+        <item name="android:textColor">@color/dp_textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.DangerButton" parent="TextAppearance.MyApp.MainButton">
+        <item name="android:background">@drawable/bg_red_btn</item>
+    </style>
+
+</resources>

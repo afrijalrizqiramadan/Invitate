@@ -1,0 +1,247 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:3:1-59:12
+INJECTED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:3:1-59:12
+INJECTED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:3:1-59:12
+INJECTED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:3:1-59:12
+MERGED from [me.dm7.barcodescanner:zxing:1.9.13] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\zxing-1.9.13.aar\bb921e83bb369472430d52db8f3846e5\AndroidManifest.xml:2:1-13:12
+MERGED from [me.dm7.barcodescanner:core:1.9.13] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\core-1.9.13.aar\a374617b1f2af426b1ebf37de9295335\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\9c8cc7f5885db3d2d40775dd3c67c66a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\design-28.0.0.aar\72099824721bbd02a86e4054ce91c925\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\86eebc87743e13c8bf66c0481d721b16\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\f5a6ba7664afd4126e284f5bab348207\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\c312a1d4787d77786d488de4ba87b6ef\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\19efada97eb248ecbaa209aeda92962d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\a86fbbc27f431d46ff49c246fd7e7d81\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\297a1b87af2a3c2fcc2d6f93d23370d8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\93f64093acc62a756f23926312e25103\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\dd8c0a3509660b185b6cc7889a0cb76b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\transition-28.0.0.aar\53d039e2a49ee86390439a04f6f266f3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\loader-28.0.0.aar\4906443eb606fa3fbc29fb87b022a349\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\a14b5f7b150b0674ecbcb225b9059a8a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\c830cb11897994fa6c07015e8e915305\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\4eb02adcd815195eb16fceceed40d8f4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\e8bf4d4918fbbb0d02580be4492f6cde\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\customview-28.0.0.aar\4a2934403146758b263fcbb1aa4cae1c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\01f1ecef69d8ce25572091dea4856dbb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\20bbfe8ea1af52862d7a58a330b09459\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\d80f2b83793847aaa9f8f7147bf75e4c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4f322d4b16a786a1bb0ec7beb2da4835\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\d2dd2d1ee06d6db9bfccbb40d9ec37b3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\7e6de439be15d970aefc818002316f49\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\runtime-1.1.1.aar\cf314cda6f681d3e391fc2b6e71f76bf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\a6ffaed515f2e7f1832d9dba68cc55f8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\5ae297de71f5078c8d490cf3c38c14ae\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\print-28.0.0.aar\d6b841352caee8ff8a6348ebd59182c9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\5dda91e17128387477b7764fbfb87e10\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\d1f7ce35c9ba6bb8b8b9be7e021f9a3a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\livedata-1.1.1.aar\5699ca990ad2d0394f93f1a1acee6509\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\96e88ba06454e467b9a6977a8de0de09\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\runtime-1.1.1.aar\0f49de84a20b9f1d299baa023bd42a3b\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:3:1-59:12
+INJECTED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:3:1-59:12
+INJECTED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:3:1-59:12
+	package
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:3:70-114
+		INJECTED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:3:1-59:12
+		INJECTED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:3:1-59:12
+		INJECTED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:3:11-69
+uses-permission#android.permission.CAMERA
+ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:4:3-63
+	android:name
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:4:20-60
+application
+ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:6:3-58:19
+MERGED from [me.dm7.barcodescanner:zxing:1.9.13] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\zxing-1.9.13.aar\bb921e83bb369472430d52db8f3846e5\AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:zxing:1.9.13] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\zxing-1.9.13.aar\bb921e83bb369472430d52db8f3846e5\AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.13] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\core-1.9.13.aar\a374617b1f2af426b1ebf37de9295335\AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.13] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\core-1.9.13.aar\a374617b1f2af426b1ebf37de9295335\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\design-28.0.0.aar\72099824721bbd02a86e4054ce91c925\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\design-28.0.0.aar\72099824721bbd02a86e4054ce91c925\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\d80f2b83793847aaa9f8f7147bf75e4c\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\d80f2b83793847aaa9f8f7147bf75e4c\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4f322d4b16a786a1bb0ec7beb2da4835\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4f322d4b16a786a1bb0ec7beb2da4835\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\d80f2b83793847aaa9f8f7147bf75e4c\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:7:9-41
+	android:icon
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:8:9-45
+	android:allowBackup
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:6:16-42
+activity#me.dm7.barcodescanner.zxing.sample.MainActivity
+ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:9:9-16:20
+	android:label
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:11:19-51
+	android:theme
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:10:19-50
+	android:name
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:9:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:12:13-15:29
+action#android.intent.action.MAIN
+ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:14:17-77
+	android:name
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:14:27-74
+activity#me.dm7.barcodescanner.zxing.sample.FullScannerActivity
+ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:18:9-24:20
+	android:label
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:21:19-59
+	android:uiOptions
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:20:19-63
+	android:theme
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:19:19-57
+	android:name
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:18:19-54
+meta-data#android.support.UI_OPTIONS
+ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:22:13-23:67
+	android:value
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:23:24-64
+	android:name
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:22:24-65
+activity#me.dm7.barcodescanner.zxing.sample.FullScannerFragmentActivity
+ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:26:9-32:20
+	android:label
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:29:19-68
+	android:uiOptions
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:28:19-63
+	android:theme
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:27:19-57
+	android:name
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:26:19-62
+activity#me.dm7.barcodescanner.zxing.sample.SimpleScannerActivity
+ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:34:9-37:20
+	android:label
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:36:17-64
+	android:theme
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:35:17-55
+	android:name
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:34:19-56
+activity#me.dm7.barcodescanner.zxing.sample.SimpleScannerFragmentActivity
+ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:39:9-42:20
+	android:label
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:41:17-73
+	android:theme
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:40:17-55
+	android:name
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:39:19-64
+activity#me.dm7.barcodescanner.zxing.sample.FullScreenScannerFragmentActivity
+ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:44:9-47:18
+	android:label
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:46:17-78
+	android:theme
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:45:19-57
+	android:name
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:44:19-68
+activity#me.dm7.barcodescanner.zxing.sample.CustomViewFinderScannerActivity
+ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:49:7-52:18
+	android:label
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:51:17-76
+	android:theme
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:50:17-48
+	android:name
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:49:17-64
+activity#me.dm7.barcodescanner.zxing.sample.ScalingScannerActivity
+ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:54:7-57:18
+	android:label
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:56:17-65
+	android:theme
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:55:17-48
+	android:name
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml:54:17-55
+uses-sdk
+INJECTED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml
+INJECTED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml
+MERGED from [me.dm7.barcodescanner:zxing:1.9.13] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\zxing-1.9.13.aar\bb921e83bb369472430d52db8f3846e5\AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:zxing:1.9.13] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\zxing-1.9.13.aar\bb921e83bb369472430d52db8f3846e5\AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.13] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\core-1.9.13.aar\a374617b1f2af426b1ebf37de9295335\AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.13] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\core-1.9.13.aar\a374617b1f2af426b1ebf37de9295335\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\9c8cc7f5885db3d2d40775dd3c67c66a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\9c8cc7f5885db3d2d40775dd3c67c66a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\design-28.0.0.aar\72099824721bbd02a86e4054ce91c925\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\design-28.0.0.aar\72099824721bbd02a86e4054ce91c925\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\86eebc87743e13c8bf66c0481d721b16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\86eebc87743e13c8bf66c0481d721b16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\f5a6ba7664afd4126e284f5bab348207\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\f5a6ba7664afd4126e284f5bab348207\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\c312a1d4787d77786d488de4ba87b6ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\c312a1d4787d77786d488de4ba87b6ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\19efada97eb248ecbaa209aeda92962d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\19efada97eb248ecbaa209aeda92962d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\a86fbbc27f431d46ff49c246fd7e7d81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\a86fbbc27f431d46ff49c246fd7e7d81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\297a1b87af2a3c2fcc2d6f93d23370d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\297a1b87af2a3c2fcc2d6f93d23370d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\93f64093acc62a756f23926312e25103\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\93f64093acc62a756f23926312e25103\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\dd8c0a3509660b185b6cc7889a0cb76b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\dd8c0a3509660b185b6cc7889a0cb76b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\transition-28.0.0.aar\53d039e2a49ee86390439a04f6f266f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\transition-28.0.0.aar\53d039e2a49ee86390439a04f6f266f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\loader-28.0.0.aar\4906443eb606fa3fbc29fb87b022a349\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\loader-28.0.0.aar\4906443eb606fa3fbc29fb87b022a349\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\a14b5f7b150b0674ecbcb225b9059a8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\a14b5f7b150b0674ecbcb225b9059a8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\c830cb11897994fa6c07015e8e915305\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\c830cb11897994fa6c07015e8e915305\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\4eb02adcd815195eb16fceceed40d8f4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\4eb02adcd815195eb16fceceed40d8f4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\e8bf4d4918fbbb0d02580be4492f6cde\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\e8bf4d4918fbbb0d02580be4492f6cde\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\customview-28.0.0.aar\4a2934403146758b263fcbb1aa4cae1c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\customview-28.0.0.aar\4a2934403146758b263fcbb1aa4cae1c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\01f1ecef69d8ce25572091dea4856dbb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\01f1ecef69d8ce25572091dea4856dbb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\20bbfe8ea1af52862d7a58a330b09459\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\20bbfe8ea1af52862d7a58a330b09459\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\d80f2b83793847aaa9f8f7147bf75e4c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\d80f2b83793847aaa9f8f7147bf75e4c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4f322d4b16a786a1bb0ec7beb2da4835\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4f322d4b16a786a1bb0ec7beb2da4835\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\d2dd2d1ee06d6db9bfccbb40d9ec37b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\d2dd2d1ee06d6db9bfccbb40d9ec37b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\7e6de439be15d970aefc818002316f49\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\7e6de439be15d970aefc818002316f49\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\runtime-1.1.1.aar\cf314cda6f681d3e391fc2b6e71f76bf\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\runtime-1.1.1.aar\cf314cda6f681d3e391fc2b6e71f76bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\a6ffaed515f2e7f1832d9dba68cc55f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\a6ffaed515f2e7f1832d9dba68cc55f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\5ae297de71f5078c8d490cf3c38c14ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\5ae297de71f5078c8d490cf3c38c14ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\print-28.0.0.aar\d6b841352caee8ff8a6348ebd59182c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\print-28.0.0.aar\d6b841352caee8ff8a6348ebd59182c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\5dda91e17128387477b7764fbfb87e10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\5dda91e17128387477b7764fbfb87e10\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\d1f7ce35c9ba6bb8b8b9be7e021f9a3a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\d1f7ce35c9ba6bb8b8b9be7e021f9a3a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\livedata-1.1.1.aar\5699ca990ad2d0394f93f1a1acee6509\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\livedata-1.1.1.aar\5699ca990ad2d0394f93f1a1acee6509\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\96e88ba06454e467b9a6977a8de0de09\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\96e88ba06454e467b9a6977a8de0de09\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\runtime-1.1.1.aar\0f49de84a20b9f1d299baa023bd42a3b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Asyabab\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\runtime-1.1.1.aar\0f49de84a20b9f1d299baa023bd42a3b\AndroidManifest.xml:20:5-44
+INJECTED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml
+INJECTED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml
+		ADDED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Studio\barcodescanner-master\zxing-sample\src\main\AndroidManifest.xml
