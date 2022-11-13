@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.asyabab.fastechqr">
+    package="com.asyabab.invitate">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -22,7 +22,7 @@
         android:name="android.hardware.camera"
         android:required="false"/>
     <application
-        android:name=".DPApp"
+        android:name="com.asyabab.invitate.DPApp"
         android:allowBackup="true"
         android:icon="@drawable/log"
         android:label="@string/app_name"
@@ -30,7 +30,7 @@
         android:supportsRtl="true"
         android:networkSecurityConfig="@xml/network"
         android:theme="@style/DPAppTheme">
-        <activity android:name=".activity.DPSplashActivity">
+        <activity android:name="com.asyabab.invitate.activity.DPSplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -38,9 +38,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activity.PindaiActivity"></activity>
-        <activity android:name=".activity.PindaiKeluarActivity"></activity>
-        <activity android:name=".activity.MainActivity">
+        <activity android:name="com.asyabab.invitate.activity.PindaiActivity"></activity>
+        <activity android:name="com.asyabab.invitate.activity.PindaiKeluarActivity"></activity>
+        <activity android:name="com.asyabab.invitate.activity.MainActivity">
 
         </activity>
     </application>
