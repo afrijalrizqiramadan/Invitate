@@ -30,7 +30,8 @@
         android:supportsRtl="true"
         android:networkSecurityConfig="@xml/network"
         android:theme="@style/DPAppTheme">
-        <activity android:name="com.asyabab.invitate.activity.DPSplashActivity">
+        <activity android:name="com.asyabab.invitate.activity.DPSplashActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -40,9 +41,9 @@
 
         <activity android:name="com.asyabab.invitate.activity.PindaiActivity"></activity>
         <activity android:name="com.asyabab.invitate.activity.PindaiKeluarActivity"></activity>
-        <activity android:name="com.asyabab.invitate.activity.MainActivity">
+        <activity android:name="com.asyabab.invitate.activity.MainActivity"></activity>
+        <activity android:name="com.asyabab.invitate.activity.SettingsActivity"></activity>
 
-        </activity>
     </application>
 
 </manifest>

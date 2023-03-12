@@ -8,16 +8,16 @@ import androidx.core.content.ContextCompat
 import com.asyabab.invitate.R
 import com.asyabab.invitate.data.local.SharedPrefHelper
 
-class MainActivity : AppCompatActivity() {
-    lateinit var buttonScanmasuk:LinearLayout
-    lateinit var buttonScankeluar:LinearLayout
+class SettingsActivity : AppCompatActivity() {
+
     lateinit var toolbar:androidx.appcompat.widget.Toolbar
-    lateinit var btsetting:ImageView
+
+    lateinit var eturl:EditText
+    lateinit var bturl:Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
+        setContentView(R.layout.activity_setting)
         val sharedPreference:SharedPrefHelper= SharedPrefHelper(this)
         toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
@@ -25,22 +25,16 @@ class MainActivity : AppCompatActivity() {
 //        toolbar?.subtitle = "Sub"
 //        toolbar?.navigationIcon = ContextCompat.getDrawable(this,R.drawable.dp_ic_setting)
 //        toolbar?.setNavigationOnClickListener { Toast.makeText(applicationContext,"Navigation icon was clicked",Toast.LENGTH_SHORT).show() }
-        btsetting = findViewById(R.id.btsettings)
-        buttonScanmasuk = findViewById(R.id.tv_scanmasuk)
-        buttonScankeluar = findViewById(R.id.tv_scankeluar)
 
+        eturl = findViewById(R.id.eturl)
+        bturl = findViewById(R.id.bturl)
 
-        buttonScanmasuk?.setOnClickListener {
-            val intent = Intent(this, PindaiActivity::class.java)
-            startActivity(intent)
-        }
-        btsetting?.setOnClickListener {
-            val intent = Intent(this, SettingsActivity::class.java)
-            startActivity(intent)
-        }
-        buttonScankeluar?.setOnClickListener {
-            val intent = Intent(this, PindaiKeluarActivity::class.java)
-            startActivity(intent)
+        bturl?.setOnClickListener {
+            val url=eturl.editableText.toString()
+            sharedPreference.putString("url",url)
+            if (sharedPreference.getString("url")!=null) {
+                Toast.makeText(this@SettingsActivity,"Sukses "+sharedPreference.getString("url")!!,Toast.LENGTH_SHORT).show()
+            }
         }
     }
 

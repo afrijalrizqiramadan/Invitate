@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Fastech App</string>
+    <string name="app_name">Invitate App</string>
     <string name="dp_font_bold">dpfonts/googlesansbold.ttf</string>
     <string name="dp_font_medium">dpfonts/googlesansmedium.ttf</string>
     <string name="dp_font_regular">dpfonts/googlesansregular.ttf</string>
