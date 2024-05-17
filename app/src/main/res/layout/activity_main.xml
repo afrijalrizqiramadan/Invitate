@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/dp_white"
     android:layout_height="match_parent"
+    android:id="@+id/swipeRefreshLayout"
+
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     tools:context=".activity.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <androidx.appcompat.widget.Toolbar
+        android:layout_marginTop="@dimen/_20sdp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:subtitle="Sub"
@@ -35,21 +42,129 @@
                 android:layout_marginRight="@dimen/_20sdp"
                 android:layout_centerVertical="true"
                 android:src="@drawable/dp_ic_setting" />
-
-
         </RelativeLayout>
-
-
     </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:id="@+id/header"
+        android:background="@color/dp_grey_light"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        android:layout_width="match_parent">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/llFinancialReport"
+                style="@style/DPHomeLayout"
+                android:foreground="?attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Tamu Hadir"
+                    android:gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:id="@+id/tvJumlahHadir"
+                    android:textSize="@dimen/_30sdp"
+                    android:gravity="center_horizontal" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llFinancialReport"
+                    style="@style/DPHomeLayout"
+                    android:foreground="?attr/selectableItemBackground">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Jumlah Undangan"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:id="@+id/tvJumlahTamu"
+                        android:textSize="@dimen/_30sdp"
+                        android:gravity="center_horizontal" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llFinancialReport"
+                    style="@style/DPHomeLayout"
+                    android:foreground="?attr/selectableItemBackground">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Tamu Tidak Hadir"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:id="@+id/tvJumlahTidakHadir"
+                        android:textSize="@dimen/_30sdp"
+                        android:gravity="center_horizontal" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="3"
+        android:padding="@dimen/_10sdp"
+        android:background="@color/dp_grey_light"
         android:orientation="horizontal">
+
 
         <LinearLayout
             android:layout_width="0dp"
+
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical">
@@ -130,5 +245,6 @@
             android:layout_weight="1"
             android:orientation="vertical"></LinearLayout>
     </LinearLayout>
-
 </LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

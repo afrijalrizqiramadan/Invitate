@@ -50,10 +50,10 @@ class PindaiActivity : DPBaseActivity() {
         val scannerView = findViewById<CodeScannerView>(R.id.scanner_view)
 
         codeScanner = CodeScanner(this, scannerView)
-        url = host+"/server/android/kirimnama.php?id_undangan="
-        urlket = host+"/server/android/kirimjumlah.php?id_undangan="
-        urlget = host+"/server/android/getdata.php?id="
-        codeScanner.camera = CodeScanner.CAMERA_BACK // or CAMERA_FRONT or specific camera id
+        url = host+"/android/kirimnamabaru.php?nama="
+        urlket = host+"/android/kirimjumlah.php?id_undangan="
+        urlget = host+"/android/getdata.php?id="
+        codeScanner.camera = CodeScanner.CAMERA_FRONT // or CAMERA_FRONT or specific camera id
         codeScanner.formats = CodeScanner.TWO_DIMENSIONAL_FORMATS// list of type BarcodeFormat,
         codeScanner.autoFocusMode = AutoFocusMode.CONTINUOUS // or CONTINUOUS
         codeScanner.scanMode = ScanMode.SINGLE // or CONTINUOUS or PREVIEW
@@ -152,17 +152,21 @@ class PindaiActivity : DPBaseActivity() {
             senddata(id,jumlah, keterangan)
         }
     }
-
+    fun replaceSpaces(input: String): String {
+        return input.replace(" ", "%20")
+    }
     private fun sendnama(id: String) {
 
         val queue = Volley.newRequestQueue(this)
-        var alamat=url+id
+        val replacedString = replaceSpaces(id)
+        var alamat=url+replacedString
+
         Log.d("response ", alamat)
 
         stringRequest = StringRequest(
             Request.Method.GET,
             alamat,
-            Response.Listener { response ->
+            { response ->
                 try {
                     val jsonObject = JSONObject(response)
                     val jsonArray = jsonObject.getString("message")
@@ -177,9 +181,9 @@ class PindaiActivity : DPBaseActivity() {
                     ).show()
                 }
             },
-            Response.ErrorListener { error ->
+            { error ->
                 Toast.makeText(
-                    this,
+                    this,"Gagal"+
                     error.message,
                     Toast.LENGTH_SHORT
                 ).show()
@@ -190,7 +194,7 @@ class PindaiActivity : DPBaseActivity() {
     private fun senddata(id: String, jumlah:String, keterangan:String) {
 
         val queue = Volley.newRequestQueue(this)
-        var alamat=urlket+id+"&jumlah="+jumlah+"&keterangan="+keterangan;
+        var alamat=urlket+id;
         Log.d("response ", alamat)
 
         stringRequest = StringRequest(
@@ -236,20 +240,20 @@ class PindaiActivity : DPBaseActivity() {
         stringRequest = StringRequest(
             Request.Method.GET,
             alamat,
-            Response.Listener { response ->
-                var jsonObject = JSONArray(response)
-                    var i:Int = 0
-                    var size:Int = jsonObject.length()
-                    for (i in 0.. size-1) {
-                        var objectdetail:JSONObject=jsonObject.getJSONObject(i)
-                        name=objectdetail.getString("nama")
-                        Toast.makeText(this@PindaiActivity, ""+name, Toast.LENGTH_LONG).show()
-
-//                        showAlertDialog(id, name)
+            { response ->
+//                var jsonObject = JSONObject(response)
+//                    var i:Int = 0
+//                    var size:Int = jsonObject.length()
+//                    for (i in 0.. size-1) {
+//                        var objectdetail:JSONObject=jsonObject.getJSONObject(i)
+//                        name=objectdetail.getString("nama")
+                        Toast.makeText(this@PindaiActivity, "Selamat Datang", Toast.LENGTH_LONG).show()
+//
+////                        showAlertDialog(id, name)
                         codeScanner.startPreview()
-                    }
+//                    }
             },
-            Response.ErrorListener { error ->
+            { error ->
                 Toast.makeText(
                     this,
                     error.message,

@@ -50,9 +50,9 @@ class PindaiKeluarActivity : DPBaseActivity() {
         val scannerView = findViewById<CodeScannerView>(R.id.scanner_view)
 
         codeScanner = CodeScanner(this, scannerView)
-         url = host+"/server/android/kirimkeluar.php?id_undangan="
-         urlket = host+"/server/android/kirimjumlah.php?id_undangan="
-         urlget = host+"/server/android/getdata.php?id="
+        url = host+"/android/kirimkeluarbaru.php?nama="
+        urlket = host+"/android/kirimjumlah.php?id_undangan="
+        urlget = host+"/android/getdata.php?id="
         codeScanner.camera = CodeScanner.CAMERA_FRONT // or CAMERA_FRONT or specific camera id
         codeScanner.formats = CodeScanner.TWO_DIMENSIONAL_FORMATS // list of type BarcodeFormat,
         codeScanner.autoFocusMode = AutoFocusMode.CONTINUOUS // or CONTINUOUS
@@ -158,7 +158,7 @@ class PindaiKeluarActivity : DPBaseActivity() {
         stringRequest = StringRequest(
             Request.Method.GET,
             alamat,
-            Response.Listener { response ->
+            { response ->
                 try {
                     val jsonObject = JSONObject(response)
                     val jsonArray = jsonObject.getString("message")
@@ -173,7 +173,7 @@ class PindaiKeluarActivity : DPBaseActivity() {
                     ).show()
                 }
             },
-            Response.ErrorListener { error ->
+            { error ->
                 Toast.makeText(
                     this,
                     error.message,
@@ -193,21 +193,21 @@ class PindaiKeluarActivity : DPBaseActivity() {
         stringRequest = StringRequest(
             Request.Method.GET,
             alamat,
-            Response.Listener { response ->
-                var jsonObject = JSONArray(response)
-                    var i:Int = 0
-                    var size:Int = jsonObject.length()
-                    for (i in 0.. size-1) {
-                        var objectdetail:JSONObject=jsonObject.getJSONObject(i)
-                        name=objectdetail.getString("nama")
-                        Toast.makeText(this@PindaiKeluarActivity, ""+name, Toast.LENGTH_LONG).show()
-
-//                        showAlertDialog(id, name)
-                        codeScanner.startPreview()
-
-                    }
+            { response ->
+//                var jsonObject = JSONArray(response)
+//                    var i:Int = 0
+//                    var size:Int = jsonObject.length()
+//                    for (i in 0.. size-1) {
+//                        var objectdetail:JSONObject=jsonObject.getJSONObject(i)
+//                        name=objectdetail.getString("nama")
+                        Toast.makeText(this@PindaiKeluarActivity, "Ambil Souvenir", Toast.LENGTH_LONG).show()
+//
+////                        showAlertDialog(id, name)
+//                        codeScanner.startPreview()
+//
+//                    }
             },
-            Response.ErrorListener { error ->
+            { error ->
                 Toast.makeText(
                     this,
                     error.message,
@@ -218,5 +218,6 @@ class PindaiKeluarActivity : DPBaseActivity() {
 
         return name
     }
+
 }
 

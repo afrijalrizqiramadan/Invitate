@@ -10,15 +10,15 @@
         android:id="@+id/ivBgContent"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/bg_content"
+        android:background="@drawable/dito"
         tools:ignore="ContentDescription" />
 
 
     <com.budiyev.android.codescanner.CodeScannerView
         android:id="@+id/scanner_view"
-        android:layout_marginTop="@dimen/_200sdp"
+        android:layout_marginTop="@dimen/_250sdp"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_400sdp"
+        android:layout_height="@dimen/_350sdp"
         app:autoFocusButtonColor="@android:color/white"
         app:autoFocusButtonVisible="false"
         app:flashButtonColor="@android:color/white"
